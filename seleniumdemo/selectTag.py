@@ -18,5 +18,6 @@ conutries = Select(countriesElemets)
 conutries.select_by_visible_text('United States')
 
 driver.find_element_by_xpath("//form[@id='cf']//input[@value='View Calendar']").click()
+driver.save_screenshot('C:/test/selectTag.png')
 
 driver.close()
