@@ -9,7 +9,7 @@ def portscan(port):
     try:
         con = s.connect((target, port))
         with print_lock:
-            print('port', port, 'is open!!!!!!!')
+            print('port', port, 'is open!!!!!!!!!!!')
         con.close()
 
     except:
